@@ -124,7 +124,7 @@ export default function Home() {
           const { error } = await supabase.from("leads").insert({
             first_name: fullName,
             last_name: "",
-            address: "",
+            address: "_",
             phone: `${number}`,
             wilaya: province,
             commune: address,
