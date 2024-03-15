@@ -704,8 +704,8 @@ export default function Home() {
                         <h3 className="text-lg  text-center mt-4 text-white">
                           الرجاء إدخال معلوماتك الشخصية و سوف نتصل بك للتأكيد{" "}
                         </h3>
-                        <div className="text-white">
-                          <label className="label w-full text-right block mt-3">
+                        <div className="">
+                          <label className="label w-full text-right block mt-3 text-white">
                             <span className="label-text  right-0 ">
                               الإسم و اللقب
                             </span>
@@ -725,8 +725,8 @@ export default function Home() {
                             </p>
                           )}
                         </div>
-                        <div className="text-white">
-                          <label className="label w-full text-right block mt-3">
+                        <div className="">
+                          <label className="label w-full text-right block mt-3 text-white">
                             <span className="label-text  ">رقم الهاتف</span>
                           </label>
                           <input
@@ -744,8 +744,8 @@ export default function Home() {
                             </p>
                           )}
                         </div>
-                        <div className="text-white">
-                          <label className="label w-full text-right block mt-3">
+                        <div className="">
+                          <label className="label w-full text-right block mt-3 text-white">
                             <span className="label-text  ">الولاية</span>
                           </label>
                           <input
@@ -763,8 +763,8 @@ export default function Home() {
                             </p>
                           )}
                         </div>
-                        <div className="text-white">
-                          <label className="label w-full text-right block mt-3">
+                        <div className="">
+                          <label className="label w-full text-right block mt-3 text-white">
                             <span className="label-text  ">البلدية</span>
                           </label>
                           <input
