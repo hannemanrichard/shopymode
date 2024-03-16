@@ -13,7 +13,7 @@ import supabase from "../supabase-config";
 
 import Countdown from "react-countdown/dist/index";
 import { setCookie, getCookie } from "cookies-next";
-import { fbq } from "react-facebook-pixel";
+//import { fbq } from "react-facebook-pixel";
 
 export default function Home() {
   const [fullName, setFullName] = useState("");
