@@ -362,11 +362,10 @@ export default function Home() {
               {" "}
               تصاميم فريدة بألوان متنوعة، مثالية لكل المناسبات
             </p>
-            {/* <p className="text-xl  font-bold text-center   bg-gray-100 rounded-xl py-2 mt-1">
+            <p className="text-lg text-center mt-1">
+              (tissu en daim)
               
-              عرض محدود استفد من{" "}
-              <span className="text-green-500">تخفيض (36%)</span>
-            </p> */}
+            </p> 
           </div>
 
           <div className="grid gap-12 md:grid-cols-2">
