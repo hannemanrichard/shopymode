@@ -362,7 +362,7 @@ export default function Home() {
               {" "}
               تصاميم فريدة بألوان متنوعة، مثالية لكل المناسبات
             </p>
-            <p className="text-lg text-center mt-1">
+            <p className="text-lg text-white text-center mt-1">
               (tissu en daim)
               
             </p> 
