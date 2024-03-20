@@ -89,7 +89,7 @@ export default function Home() {
     }
   };
 
-  /*useEffect(() => {
+  useEffect(() => {
     const handleBeforeUnload = async (event: any) => {
       try {
         if (!isSubmitted && number !== null) {
@@ -147,7 +147,7 @@ export default function Home() {
     return () => {
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
-  }, [address, fullName, number, province, isSubmitted, model, offer, size]);*/
+  }, [address, fullName, number, province, isSubmitted, model, offer, size]);
 
   useEffect(() => {
     const fetchAgents = async () => {
