@@ -381,9 +381,9 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("t01.jpg")}>
                     <Image src="/t01.jpg" width={128} height={160} alt="" />
                   </button>
-                  {/* <button onClick={() => setPreviewImage("bl01.jpg")}>
+                  <button onClick={() => setPreviewImage("bl01.jpg")}>
                     <Image src="/bl01.jpg" width={128} height={160} alt="" />
-                  </button> */}
+                  </button>
                   {/* <button onClick={() => setPreviewImage("b01.jpg")}>
                     <Image src="/b01.jpg" width={128} height={160} alt="" />
                   </button> */}
@@ -426,7 +426,7 @@ export default function Home() {
                   alt=""
                 />
 
-                {/* <Image
+                 <Image
                   height={510}
                   width={382}
                   src="/bl02.jpg"
@@ -439,7 +439,7 @@ export default function Home() {
                   src="/bl03.jpg"
                   className="my-3"
                   alt=""
-                />
+                />{/*
                 <Image
                   height={510}
                   width={382}
@@ -457,17 +457,18 @@ export default function Home() {
                 <Image
                   height={510}
                   width={382}
-                  src="/bl05.jpg"
-                  className="my-3"
-                  alt=""
-                />
-                <Image
-                  height={510}
-                  width={382}
                   src="/b02.jpg"
                   className="my-3"
                   alt=""
                 /> */}
+                
+                <Image
+                  height={510}
+                  width={382}
+                  src="/bl05.jpg"
+                  className="my-3"
+                  alt=""
+                />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
@@ -506,9 +507,9 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("t01.jpg")}>
                     <Image src="/t01.jpg" width={128} height={160} alt="" />
                   </button>
-                  {/* <button onClick={() => setPreviewImage("bl01.jpg")}>
+                  <button onClick={() => setPreviewImage("bl01.jpg")}>
                     <Image src="/bl01.jpg" width={128} height={160} alt="" />
-                  </button> */}
+                  </button>
                   {/* <button onClick={() => setPreviewImage("b01.jpg")}>
                     <Image src="/b01.jpg" width={128} height={160} alt="" />
                   </button> */}
@@ -590,7 +591,7 @@ export default function Home() {
                                   className="rounded-lg"
                                 />
                               </div>
-                              {/* <div
+                               <div
                                 onClick={() => handleUpdateModel(3)}
                                 className={`flex cursor-pointer  p-1 border-2  hover:border-amber-500 w-16 h-16 rounded-lg ${
                                   model === 3
@@ -605,7 +606,7 @@ export default function Home() {
                                   alt=""
                                   className="rounded-lg"
                                 />
-                              </div>
+                              </div>{/*
                               <div
                                 onClick={() => handleUpdateModel(4)}
                                 className={`flex cursor-pointer  p-1 border-2  hover:border-amber-500 w-16 h-16 rounded-lg ${
@@ -885,7 +886,7 @@ export default function Home() {
                   alt=""
                 />
 
-                {/* <Image
+                <Image
                   height={510}
                   width={382}
                   src="/bl02.jpg"
@@ -898,7 +899,7 @@ export default function Home() {
                   src="/bl03.jpg"
                   className="my-3"
                   alt=""
-                />
+                />{/* 
                 <Image
                   height={510}
                   width={382}
@@ -913,13 +914,7 @@ export default function Home() {
                   className="my-3"
                   alt=""
                 />
-                <Image
-                  height={510}
-                  width={382}
-                  src="/bl05.jpg"
-                  className="my-3"
-                  alt=""
-                />
+                
                 <Image
                   height={510}
                   width={382}
@@ -927,6 +922,13 @@ export default function Home() {
                   className="my-3"
                   alt=""
                 /> */}
+                <Image
+                  height={510}
+                  width={382}
+                  src="/bl05.jpg"
+                  className="my-3"
+                  alt=""
+                />
               </div>
               <div className=" text-right mt-4 text-white">
                 <h1 className="text-xl mb-2 ">:كيفية الطلب </h1>
